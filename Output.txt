@@ -1,0 +1,165 @@
+Oct 06, 2015 10:15:34 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64b8f8f4: startup date [Tue Oct 06 22:15:34 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:35 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testA
+Oct 06, 2015 10:15:37 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: 283e04bd-6632-496f-be46-60896e9035c7
+Oct 06, 2015 10:15:37 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+INFO: Bob reads the secret of ID: 283e04bd-6632-496f-be46-60896e9035c7
+Oct 06, 2015 10:15:37 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+SEVERE: An exception edu.sjsu.cmpe275.lab1.exception.UnauthorizedException has been thrown in readSecret()
+Oct 06, 2015 10:15:37 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1dac5ef: startup date [Tue Oct 06 22:15:37 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testB
+Oct 06, 2015 10:15:37 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: dd4b24d6-559e-4f74-8eb6-ce1371aea956
+Oct 06, 2015 10:15:37 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: dd4b24d6-559e-4f74-8eb6-ce1371aea956 with Bob
+Oct 06, 2015 10:15:37 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+INFO: Bob reads the secret of ID: dd4b24d6-559e-4f74-8eb6-ce1371aea956
+Oct 06, 2015 10:15:37 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@29647f75: startup date [Tue Oct 06 22:15:37 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testC
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: 628e5f3c-9df0-46ac-848a-34e1fafd65f0
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: 628e5f3c-9df0-46ac-848a-34e1fafd65f0 with Bob
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Bob shares the secret of ID: 628e5f3c-9df0-46ac-848a-34e1fafd65f0 with Carl
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+INFO: Carl reads the secret of ID: 628e5f3c-9df0-46ac-848a-34e1fafd65f0
+Oct 06, 2015 10:15:38 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2b48a640: startup date [Tue Oct 06 22:15:38 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:38 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testD
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: 559e7526-4b55-4cc0-95e2-9570a9afc69a
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Carl creates a secret with ID: e1ee5382-5859-4a27-98f1-b13b95421959
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: 559e7526-4b55-4cc0-95e2-9570a9afc69a with Bob
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Bob shares the secret of ID: e1ee5382-5859-4a27-98f1-b13b95421959 with Alice
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+SEVERE: An exception edu.sjsu.cmpe275.lab1.exception.UnauthorizedException has been thrown in shareSecret()
+Oct 06, 2015 10:15:38 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@53ce1329: startup date [Tue Oct 06 22:15:38 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:38 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testE
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: f13e11df-4b70-4eb0-946b-99f9b2218960
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: f13e11df-4b70-4eb0-946b-99f9b2218960 with Bob
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Bob shares the secret of ID: f13e11df-4b70-4eb0-946b-99f9b2218960 with Carl
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect unshareSecretAfter
+INFO: Alice unshares the secret of ID: f13e11df-4b70-4eb0-946b-99f9b2218960 with Carl
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+INFO: Carl reads the secret of ID: f13e11df-4b70-4eb0-946b-99f9b2218960
+Oct 06, 2015 10:15:38 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+SEVERE: An exception edu.sjsu.cmpe275.lab1.exception.UnauthorizedException has been thrown in readSecret()
+Oct 06, 2015 10:15:38 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@298a5e20: startup date [Tue Oct 06 22:15:38 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:38 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testF
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: c5230d94-5ba4-4c0f-8a25-4c556c7be446
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: c5230d94-5ba4-4c0f-8a25-4c556c7be446 with Bob
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: c5230d94-5ba4-4c0f-8a25-4c556c7be446 with Carl
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Carl shares the secret of ID: c5230d94-5ba4-4c0f-8a25-4c556c7be446 with Bob
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect unshareSecretAfter
+INFO: Alice unshares the secret of ID: c5230d94-5ba4-4c0f-8a25-4c556c7be446 with Bob
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+INFO: Bob reads the secret of ID: c5230d94-5ba4-4c0f-8a25-4c556c7be446
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+SEVERE: An exception edu.sjsu.cmpe275.lab1.exception.UnauthorizedException has been thrown in readSecret()
+Oct 06, 2015 10:15:39 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5890e879: startup date [Tue Oct 06 22:15:39 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:39 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testG
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: 471aa289-3b05-410e-bcd5-ca8399ca21e3
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: 471aa289-3b05-410e-bcd5-ca8399ca21e3 with Bob
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Bob shares the secret of ID: 471aa289-3b05-410e-bcd5-ca8399ca21e3 with Carl
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect unshareSecretAfter
+INFO: Bob unshares the secret of ID: 471aa289-3b05-410e-bcd5-ca8399ca21e3 with Carl
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect readSecretAround
+INFO: Carl reads the secret of ID: 471aa289-3b05-410e-bcd5-ca8399ca21e3
+Oct 06, 2015 10:15:39 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@55de24cc: startup date [Tue Oct 06 22:15:39 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:39 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testH
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: 1df9b740-7925-4f67-9fbc-b7f8c841cd94
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: 1df9b740-7925-4f67-9fbc-b7f8c841cd94 with Bob
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect unshareSecretAfter
+INFO: Carl unshares the secret of ID: 1df9b740-7925-4f67-9fbc-b7f8c841cd94 with Bob
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect unshareSecretAfter
+SEVERE: An exception edu.sjsu.cmpe275.lab1.exception.UnauthorizedException has been thrown in unshareSecret()
+Oct 06, 2015 10:15:39 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@503f91c3: startup date [Tue Oct 06 22:15:39 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:39 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testI
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: 65838b78-edc2-405e-b03f-2b90494bb785
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Alice shares the secret of ID: 65838b78-edc2-405e-b03f-2b90494bb785 with Bob
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Bob shares the secret of ID: 65838b78-edc2-405e-b03f-2b90494bb785 with Carl
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect unshareSecretAfter
+INFO: Alice unshares the secret of ID: 65838b78-edc2-405e-b03f-2b90494bb785 with Bob
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+INFO: Bob shares the secret of ID: 65838b78-edc2-405e-b03f-2b90494bb785 with Carl
+Oct 06, 2015 10:15:39 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect shareSecretLogging
+SEVERE: An exception edu.sjsu.cmpe275.lab1.exception.UnauthorizedException has been thrown in shareSecret()
+Oct 06, 2015 10:15:39 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@471a9022: startup date [Tue Oct 06 22:15:39 PDT 2015]; root of context hierarchy
+Oct 06, 2015 10:15:39 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringConfig.xml]
+
+testJ
+Oct 06, 2015 10:15:40 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: 7e70c2d6-7f73-4578-a91d-da316e81d7af
+Oct 06, 2015 10:15:40 PM edu.sjsu.cmpe275.lab1.aspect.LoggingAspect storeSecretAfterReturning
+INFO: Alice creates a secret with ID: d94ee216-0cbc-4eeb-b3ca-ac21a1531b6e
+
+***************************************************************************************************
+Test Results:
+
+TestA: Pass
+TestB: Pass
+TestC: Pass
+TestD: Pass
+TestE: Pass
+TestF: Pass
+TestG: Pass
+TestH: Pass
+TestI: Pass
+TestJ: Pass
+****************************************************************************************************
